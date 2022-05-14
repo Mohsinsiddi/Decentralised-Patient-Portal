@@ -33,13 +33,13 @@ class MOH extends React.Component {
           </ul>
         </nav>
         <div className="container" style={{ padding: "10%" }}>
-          <h3 className="text-center">ADD DHB ADMIN</h3>
+          <h3 className="text-center">ADD STATE ADMIN</h3>
           <br />
           <br />
             <input className="form-control" placeholder="Enter Name..." onChange={(e) => { this.setState({ name: e.target.value }) }} />
             <br />
             <br />
-            <input className="form-control" placeholder="Enter DHB..." onChange={(e) => { this.setState({ statename: e.target.value }) }} />
+            <input className="form-control" placeholder="Enter State Name..." onChange={(e) => { this.setState({ statename: e.target.value }) }} />
             <br />
           <Employee 
          data={{"name":this.state.name,

@@ -19,7 +19,7 @@ export const SidebarData = [
     cName: 'nav-text'
   },
   {
-    title: 'NHI Updation',
+    title: '....',
     path: '/NHIUpdateDepartment',
     icon: <RiLoginBoxLine />,
     cName: 'nav-text'

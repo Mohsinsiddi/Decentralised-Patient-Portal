@@ -61,7 +61,7 @@ class application extends React.Component {
     //const networkId = await web3.eth.net.getId()
     //const networkData = Healthcare.networks[networkId]
    
-      const contract = new web3.eth.Contract(Healthcare, "0x5f6AFc499b79b97ad5c84CB2A315db16B5304B1b")
+      const contract = new web3.eth.Contract(Healthcare, "0xcfA60a381A717D4368f704a30C04102125563B15")
       this.setState({ contract })
      
 
@@ -197,7 +197,7 @@ class application extends React.Component {
             <br />
             <br />
             <header className="text-center" >
-              <h1 className="fontColor" style={{color:'rgb(136, 247, 136)'}}>BlockPres</h1>
+              <h1 className="fontColor" style={{color:'rgb(136, 247, 136)'}}>Decentralised Patient Portal</h1>
               <h3 className="fontColor">A Blockchain | Decentralized based Prescription Managemnet System</h3>
               <p></p>
               <p></p>

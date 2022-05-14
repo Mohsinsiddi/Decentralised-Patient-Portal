@@ -25,7 +25,7 @@ class dhb extends React.Component {
               </li>
             </ul>
           </nav>
-          <div className="container" style={{ padding: "10%",marginRight:"42px" }}>
+          <div className="container d-flex justify-content-center mt-5" >
             <Link to="/addHospital">
               <button className="btn btn-success mx-5" onClick={null}>ADD A HOSPITAL</button>
             </Link>

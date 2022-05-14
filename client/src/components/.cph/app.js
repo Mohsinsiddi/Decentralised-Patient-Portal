@@ -37,7 +37,7 @@ class Employee extends Component {
     const accounts = await web3.eth.getAccounts()
     this.setState({ account: accounts[0] })
 
-    const contract = new web3.eth.Contract(Healthcare, "0x5f6AFc499b79b97ad5c84CB2A315db16B5304B1b");
+    const contract = new web3.eth.Contract(Healthcare, "0xcfA60a381A717D4368f704a30C04102125563B15");
     this.setState({ contract })
 
 
@@ -92,7 +92,7 @@ class Employee extends Component {
     console.log(this.props.data.name);
     this.state.contract.methods.addStateAdmin(this.state.value,this.props.data.name,this.props.data.statename).send({ from: this.state.account }).then((r) => {
       console.log("added admin");
-      window.alert('DHB added successfully to the system')
+      window.alert('State Admin added successfully to the system')
       return window.location.reload();
     })
 

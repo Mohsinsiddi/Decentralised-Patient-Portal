@@ -27,7 +27,7 @@ class App extends Component {
     // Load Token
     const networkID = await web3.eth.net.getId();
     if(networkID) {
-      const token = new web3.eth.Contract(BlockPressABI, "0x2a2393eF1c6C0598Ac18FED4F3c1Cc9Cff7B8CAe")
+      const token = new web3.eth.Contract(BlockPressABI, "0x999680d5E06bda9b917b345123344A8D70c6d289")
       this.setState({ token })
       let tokenBalance = await token.methods.balanceOf(this.state.account).call()
       this.setState({ tokenBalance: tokenBalance.toString() })

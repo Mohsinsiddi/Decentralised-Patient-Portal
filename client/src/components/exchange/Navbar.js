@@ -20,7 +20,7 @@ class Navbar extends Component {
             // target="_blank"
             rel="noopener noreferrer"
           >
-            BlockPress DEX
+            DPP DEX
           </a>
             <ul className="navbar-nav ml-auto">
             <li className="nav-item text-nowrap d-none d-sm-none d-sm-block">
@@ -41,7 +41,7 @@ class Navbar extends Component {
               <li className="nav-item ml-auto">
                 <Link to="/">
                   <a className="nav-link" style={{ color: "white" }}>
-                    Go to BlockPress!
+                    Go to Decentralized Patient Protocol !
                   </a>
                 </Link>
               </li>

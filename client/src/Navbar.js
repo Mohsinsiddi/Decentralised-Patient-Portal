@@ -58,7 +58,7 @@ function Navbar(props) {
       if (flag == true)
         return history.push('/dhb');
       else
-       alert('You are not the registered DHB in this platform');
+       alert('You are not the registered State Admin in this platform');
     }
     async function loginAdmin (){
       
@@ -122,7 +122,7 @@ function Navbar(props) {
             <li className='nav-text'>
               <Link onClick={loginState}>
               <RiGovernmentFill />
-                <span>HEALTH-NZ</span>
+                <span>STATE ADMIN</span>
               </Link>
             </li>
             <li className='nav-text'>

@@ -50,7 +50,7 @@ class FormTXt extends React.Component {
     render() {
       return (
         <form onSubmit={this.mySubmitHandler}>
-        <h1>Welcome to BlockPres Prescription Creation Portal</h1>
+        <h1>Welcome to Decentralized Patient Portal</h1>
         {/* <h2>Create Digital Prescription!</h2> */}
         <p style={{fontSize:'16px',fontWeight:'600',}}>Notes:</p>
         <input

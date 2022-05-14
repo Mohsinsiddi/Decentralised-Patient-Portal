@@ -37,10 +37,10 @@ class loginPatient extends React.Component {
     const accounts = await web3.eth.getAccounts()
     this.setState({ account: accounts[0] })
    
-      const contract = new web3.eth.Contract(Healthcare, "0x5f6AFc499b79b97ad5c84CB2A315db16B5304B1b")
+      const contract = new web3.eth.Contract(Healthcare, "0xcfA60a381A717D4368f704a30C04102125563B15")
       this.setState({ contract })
        
-      const blockPressContract = new web3.eth.Contract(BlockPressABI, "0x2a2393eF1c6C0598Ac18FED4F3c1Cc9Cff7B8CAe")
+      const blockPressContract = new web3.eth.Contract(BlockPressABI, "0x999680d5E06bda9b917b345123344A8D70c6d289")
       this.setState({ blockPressContract })
 
       const BPTokenBalance = await this.state.blockPressContract.methods.balanceOf(this.state.account).call();
